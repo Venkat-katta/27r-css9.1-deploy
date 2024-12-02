@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Calculator-UI></Calculator-UI></title>
+    <style>
+  #gd{
+   display: grid;
+   justify-content: center;
+   flex-wrap: wrap;
+   border: 2px,solid violet;
+   padding: 20px;
+   height: 110vh;
+    width: 25vw;
+    margin-top: 150px;
+    
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: deeppink;
+   
+  }
+  .div1{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: 100px;
+    border: 2px,solid;
+    padding: 20px;
+    width: 19vw;
+    height: 16vh;
+    border-radius: 15px;
+    background-color: azure;
+    border-color: rgb(144, 109, 241);
+  }
+  .div2{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 20px 20px 20px 20px;
+    gap: 38px;
+   
+    
+   }
+   .div2 .iteam1:hover{
+    cursor: pointer;
+    background-color: rgb(247, 184, 27);
+   }
+   .iteam1{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px,solid;
+    padding: 10px;
+    height: 7vh;
+    width: 3vw;
+    border-radius: 30px;
+    font-size: x-large;
+    margin-top: 10px;
+    color: white;
+    
+   }
+   .div3{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 20px 20px 20px 20px;
+    gap: 38px;
+
+   }
+   .div3 .iteam2:hover{
+    cursor: pointer;
+    background-color: rgb(155, 177, 177);
+   }
+   .div3 .iteam2-1:hover{
+    cursor: pointer;
+    background-color:  rgb(247, 184, 27);
+   }
+   .iteam2{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px,solid;
+    padding: 10px;
+    height: 7vh;
+    width: 3vw;
+    border-radius: 30px;
+    font-size: x-large;
+    color: white;
+   }
+   .iteam2-1{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px,solid;
+    padding: 10px;
+    height: 7vh;
+    width: 3vw;
+    border-radius: 30px;
+    font-size: x-large;
+    color: white;
+   }
+ .div4{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 20px 20px 20px 20px;
+    gap: 38px;
+ }
+ .div4 .iteam3:hover{
+    cursor: pointer;
+    background-color:  rgb(155, 177, 177);
+ }
+ .div4 .iteam3-1:hover{
+    cursor: pointer;
+    background-color:  rgb(247, 184, 27);
+   }
+ .iteam3{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px,solid;
+    padding: 10px;
+    height: 7vh;
+    width: 3vw;
+    border-radius: 30px;
+    font-size: x-large;
+    color: white;
+}
+.iteam3-1{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px,solid;
+    padding: 10px;
+    height: 7vh;
+    width: 3vw;
+    border-radius: 30px;
+    font-size: x-large;
+    color: white;
+   }
+ .div5{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 20px 20px 20px 20px;
+    gap: 38px;
+ }
+ .div5 .iteam4:hover{
+    cursor: pointer;
+    background-color: rgb(155, 177, 177);
+   }
+   .div5 .iteam4-1:hover{
+    cursor: pointer;
+    background-color:  rgb(247, 184, 27);
+   }
+ .iteam4{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px,solid;
+    padding: 10px;
+    height: 7vh;
+    width: 3vw;
+    border-radius: 30px;
+    font-size: x-large;
+    color: white;
+}
+.iteam4-1{
+display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px,solid;
+    padding: 10px;
+    height: 7vh;
+    width: 3vw;
+    border-radius: 30px;
+    font-size: x-large;
+    color: white;
+}
+ .div6{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 20px 20px 20px 20px;
+    gap: 38px;
+ }
+ .div6 .iteam5:hover{
+    cursor: pointer;
+    background-color: blue;
+   }
+   .div6 .iteam6:hover{
+    cursor: pointer;
+    background-color: rgb(155, 177, 177) ;
+   }
+   .div6 .iteam7:hover{
+    cursor: pointer;
+   background-color: rgb(247, 184, 27);
+   }
+ .iteam5{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px,solid;
+    padding: 10px;
+    height: 7vh;
+    width: 3vw;
+    border-radius: 30px;
+    color: white;
+   
+
+ }
+ .iteam6{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px,solid;
+    padding: 10px;
+    height: 7vh;
+    width: 3vw;
+    border-radius: 30px;
+    font-size: x-large;
+    color: white;
+   
+ }
+ .iteam7{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px,solid;
+    padding: 10px;
+    height: 7vh;
+    width: 3vw;
+    border-radius: 30px;
+    font-size: x-large;
+    color: white;
+   
+ }
+ 
+     
+    </style>
+</head>
+<body style="background-color: black;">
+    <div id="gd">
+    <div class="div1"></div>
+    <div class="div2">
+       <div class="iteam1">ON</div>
+       <div class="iteam1">AC</div>
+       <div class="iteam1">%</div>
+       <div class="iteam1">/</div>
+       </div>
+       <div class="div3">
+       <div class="iteam2">1</div>
+       <div class="iteam2">2</div>
+       <div class="iteam2">3</div>
+       <div class="iteam2-1">X</div>
+       </div>
+       <div class="div4">
+       <div class="iteam3">4</div>
+       <div class="iteam3">5</div>
+       <div class="iteam3">6</div>
+       <div class="iteam3-1">-</div>
+       </div>
+       <div class="div5">
+       <div class="iteam4">7</div>
+       <div class="iteam4">8</div>
+       <div class="iteam4">9</div>
+       <div class="iteam4-1">+</div>
+       </div>
+       <div class="div6">
+       <div class="iteam5">Delete</div>
+       <div class="iteam6">0</div>
+       <div class="iteam6">.</div>
+       <div class="iteam7">=</div>
+    </div>
+    
+    </div>
+</body>
+</html>
